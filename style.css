@@ -480,3 +480,85 @@ footer p {
     letter-spacing: 0.3em;
     font-size: 00.9em;
 }
+
+/* ******************************************************************* MEDIA QUERY ************************************************************ */
+@media screen and (max-width: 900px) {
+    .infos h5, .typed {
+        font-size: 0.9em;
+    }
+    #languages {
+        margin-left: 1%;
+    }
+    #formation {
+        margin-right: 1%;
+    }
+    .network {
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: 770px) {
+    h1, h2 {
+        font-size: 2em;
+    }
+    #languages {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #formation {
+        margin: 210px 0 0 10%;
+        width: 80%;
+        float: none;
+        display: block;
+    }
+    .counter-value {
+        font-size: 2em;
+    }
+    .data-span {
+        font-size: 8em;
+    }
+    #parcours {
+        margin-top: -50px;
+    }
+    .legend p {
+        display: none;
+    }
+    #other-skills h3, #hobbies h3 {
+        font-size: 2em;
+    }
+    .cloud {
+        font-size: 1.5em;
+    }
+    .flip-box-back p {
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .navbar {
+        display: none !important;
+    }
+    h1 {
+        padding-top: 20px;
+    }
+    h3 {
+        font-size: 1em !important;
+    }
+    #fcc, #ocr {
+        padding: 50px 0 0 0;
+    }
+    .project:nth-child(2), .project:nth-child(3) {
+        margin-left: 0;
+    }
+    .legend {
+        opacity: 1;
+    }
+    #other-skills {
+        display: none;
+    }
+    #hobbies {
+        margin-top: -30px;
+    }
+    .flip-box-back p {
+        font-size: 0.7em;
+    }
+}
